@@ -1,0 +1,49 @@
+.container {
+    font-family: 'Jost', sans-serif; 
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    width: 50%;
+    color: rgb(239, 5, 5);
+}
+.first-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+input {
+        width: 30%;
+        height: 3rem;
+        font-weight:300;
+        border: 1px solid rgba(183, 183, 183, 0.888);
+        border-radius: 0.2rem;
+    }
+.input-one {
+    margin-left: 8rem;
+}
+.output {
+    margin-top: 4rem;
+    margin-left: 8rem;
+}
+.button {
+        width: 12rem;
+        height: 3.2rem;
+        background-color: rgb(202, 4, 74);
+        border: none;
+        border-radius: 3px;
+        font-weight:300;
+    }
+
+    @media screen and (max-width: 768px) {
+        .first-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 1rem;
+        }
+        .input-one {
+            margin-left: 0;
+        }
+    }
